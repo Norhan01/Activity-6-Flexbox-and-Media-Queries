@@ -1,0 +1,30 @@
+.flex-container{
+    background-color: blueviolet;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-item {
+    background-color: violet;
+    padding: 50px;
+    margin: 10px;
+    font-size: 2em;
+    color: white;    
+}
+
+@media screen and (max-width:600px){
+    .flex-container{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-item{
+        background-color: black;
+        color: chartreuse;
+    }
+    
+}
